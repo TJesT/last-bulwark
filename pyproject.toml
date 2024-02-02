@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "last-bulwark"
+version = "0.1.0"
+description = "Python Tower Defense game"
+authors = ["TJesT <alexeynospid@gmail.com>"]
+readme = "README.md"
+packages = [{include = "last_bulwark"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
